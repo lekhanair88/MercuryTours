@@ -12,7 +12,7 @@ public class MercuryScript
 	String title;
 	
 	@Test
-  public void f() 
+  public void Login() 
   {
 		System.setProperty("webdriver.gecko.driver", "C:\\Testing\\Drivers\\geckodriver.exe");
 		driver=new FirefoxDriver();
